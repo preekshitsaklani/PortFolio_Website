@@ -1,0 +1,6 @@
+--- DEBUG START ---
+dotenv loaded
+env config loaded
+neo4j-driver loaded
+URI: neo4j://127.0.0.1:7687
+Top Level Error: Cannot read properties of undefined (reading 'driver')

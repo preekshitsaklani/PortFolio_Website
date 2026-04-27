@@ -1,0 +1,30 @@
+# Neo4j
+neo4j
+
+# Pydantic
+pydantic
+
+# Python Dotenv
+python-dotenv
+
+# Langchain
+langchain
+langchain-core
+langchain-community
+langchain-groq
+
+# Pypdf
+pypdf
+
+# Groq
+langchain-groq
+
+# Langchain
+langchain-core
+langchain-community
+
+# typing
+typing
+
+# sentence-transformers
+sentence-transformers

@@ -1,0 +1,319 @@
+{
+    "person": {
+        "name": "Preekshit Saklani",
+        "email": "preekshit.saklani2004@gmail.com",
+        "phone": "+91-8383051949",
+        "linkedin": "https://linkedin.com/in/preekshit",
+        "github": "https://github.com/preekshit",
+        "location": "Gurugram, India",
+        "role": "AI/ML Specialist & Developer",
+        "bio": "A distinguished AI/ML specialist with expertise in deep learning, NLP, computer vision, and building production-grade AI systems."
+    },
+    "skills": [
+        {
+            "name": "Python",
+            "category": "Languages"
+        },
+        {
+            "name": "Java",
+            "category": "Languages"
+        },
+        {
+            "name": "SQL",
+            "category": "Languages"
+        },
+        {
+            "name": "PyTorch",
+            "category": "AI/ML Frameworks"
+        },
+        {
+            "name": "TensorFlow",
+            "category": "AI/ML Frameworks"
+        },
+        {
+            "name": "Keras",
+            "category": "AI/ML Frameworks"
+        },
+        {
+            "name": "Scikit-learn",
+            "category": "AI/ML Frameworks"
+        },
+        {
+            "name": "Hugging Face Transformers",
+            "category": "AI/ML Frameworks"
+        },
+        {
+            "name": "OpenCV",
+            "category": "AI/ML Frameworks"
+        },
+        {
+            "name": "Pandas",
+            "category": "Data & Vectors"
+        },
+        {
+            "name": "NumPy",
+            "category": "Data & Vectors"
+        },
+        {
+            "name": "Pinecone (Vector DB)",
+            "category": "Data & Vectors"
+        },
+        {
+            "name": "MongoDB",
+            "category": "Data & Vectors"
+        },
+        {
+            "name": "MySQL",
+            "category": "Data & Vectors"
+        },
+        {
+            "name": "Neo4j",
+            "category": "Graph Databases"
+        },
+        {
+            "name": "Docker",
+            "category": "Tools & Cloud"
+        },
+        {
+            "name": "Kubernetes",
+            "category": "Tools & Cloud"
+        },
+        {
+            "name": "Git/GitHub",
+            "category": "Tools & Cloud"
+        },
+        {
+            "name": "Tableau",
+            "category": "Tools & Cloud"
+        },
+        {
+            "name": "Google Colab",
+            "category": "Tools & Cloud"
+        },
+        {
+            "name": "REST APIs",
+            "category": "APIs & Integrations"
+        },
+        {
+            "name": "Flask",
+            "category": "APIs & Integrations"
+        },
+        {
+            "name": "Deep Learning (CNN, ANN, GANs)",
+            "category": "Core Concepts"
+        },
+        {
+            "name": "NLP",
+            "category": "Core Concepts"
+        },
+        {
+            "name": "RAG",
+            "category": "Core Concepts"
+        },
+        {
+            "name": "Computer Vision",
+            "category": "Core Concepts"
+        },
+        {
+            "name": "Convex Optimization",
+            "category": "Core Concepts"
+        },
+        {
+            "name": "Fine-tuning",
+            "category": "Core Concepts"
+        },
+        {
+            "name": "Problem Solving",
+            "category": "Soft Skills"
+        },
+        {
+            "name": "Self-learning",
+            "category": "Soft Skills"
+        },
+        {
+            "name": "Presentation",
+            "category": "Soft Skills"
+        },
+        {
+            "name": "Adaptability",
+            "category": "Soft Skills"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Sushant University, Gurugram",
+            "degree": "Bachelor of Technology in Computer Science and Engineering (Artificial Intelligence)",
+            "year": "2022-26",
+            "location": "Gurugram"
+        }
+    ],
+    "experience": [
+        {
+            "company": "UpGrad",
+            "role": "Machine Learning Intern (Time Series Forecasting)",
+            "duration": "Jun 2024 \u2013 Jul 2024",
+            "type": "Remote",
+            "description": "Designed and developed a robust time-series forecasting model to predict hourly traffic volumes at urban junctions, engineered complex temporal features from historical datasets and weather patterns, implemented rigorous cross-validation pipelines and hyperparameter tuning in Python to minimize MAE and RMSE, conducted extensive exploratory data analysis using Pandas and Seaborn to identify traffic anomalies and correlation with environmental factors.",
+            "skills_used": [
+                "Python",
+                "Pandas",
+                "Seaborn",
+                "Time Series Forecasting",
+                "Machine Learning",
+                "Cross-Validation",
+                "Hyperparameter Tuning"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Aether",
+            "tagline": "Competitive Intelligence Agent AI-Powered Market Analytics Platform",
+            "category": "AI/ML Project",
+            "year": "2024",
+            "gradient": "from-purple-600 to-indigo-900",
+            "description": "Developed an autonomous AI agent capable of scraping and synthesizing vast amounts of company data to identify key market competitors. Built predictive analytics models to process collected data, generating strategic recommendations and actionable insights for business advantage. Integrated Natural Language Processing pipelines to perform sentiment analysis on competitor reviews and public metrics.",
+            "tech_stack": [
+                "Python",
+                "NLP",
+                "Web Scraping",
+                "Data Analytics",
+                "API Integration"
+            ],
+            "links": {
+                "github": "https://github.com/preekshit",
+                "linkedin": "https://linkedin.com/in/preekshit"
+            }
+        },
+        {
+            "name": "Few-Shot Rare Disease Detection",
+            "tagline": "Adversarial Synthesis & Diagnostic Reasoning Framework",
+            "category": "Research Project",
+            "year": "2024",
+            "gradient": "from-emerald-600 to-teal-900",
+            "description": "Developed a Style-based GAN pipeline with latent space manipulation to synthesize high-fidelity rare disease imagery for brain tumors from minimal samples. Engineered a Vision Transformer anomaly detection model trained on hybrid synthetic-real datasets, outperforming CNN baselines in low-data regimes. Integrated a Medical Knowledge Graph module that analyzes visual attention maps to recommend confirmatory tests and clinical next steps.",
+            "tech_stack": [
+                "PyTorch",
+                "GANs (StyleGAN)",
+                "Vision Transformers",
+                "Knowledge Graphs",
+                "Medical Imaging"
+            ],
+            "links": {
+                "github": "https://github.com/preekshit",
+                "linkedin": "https://linkedin.com/in/preekshit"
+            }
+        },
+        {
+            "name": "Project Architect Athena",
+            "tagline": "Custom GPT Model & Autonomous Coding Environment",
+            "category": "AI/ML Project",
+            "year": "2024",
+            "gradient": "from-rose-600 to-red-900",
+            "description": "Engineered a custom GPT-based Transformer model optimized for code generation, logical reasoning, and mathematical problem-solving, employing fine-tuning techniques to enhance domain-specific accuracy. Architected a sandboxed execution environment using Docker and Kubernetes, integrating a custom IDE that allows the model to autonomously write, compile, execute, and validate code in real-time. Developed a robust API layer to facilitate seamless interaction between the inference engine and the virtual environment, creating a closed-loop system for practical educational utility.",
+            "tech_stack": [
+                "Python",
+                "NLP",
+                "Transformers",
+                "Docker",
+                "Kubernetes",
+                "Fine-tuning",
+                "APIs",
+                "Virtual Environments"
+            ],
+            "links": {
+                "github": "https://github.com/preekshit",
+                "linkedin": "https://linkedin.com/in/preekshit"
+            }
+        },
+        {
+            "name": "Defai",
+            "tagline": "AI-Powered DeFi Chat Interface",
+            "category": "Hackathon Winner",
+            "year": "2025",
+            "gradient": "from-amber-600 to-orange-900",
+            "description": "Won ETHOXford hackathon by building DEFAI. DEFAI stands for Decentralized Finance Artificial Intelligence. It's an AI-powered chat interface that simplifies on-chain operations on the Avalanche blockchain by allowing users to interact using natural language. This makes complex DeFi operations accessible even for those with limited technical expertise.",
+            "tech_stack": [
+                "Next.js",
+                "TailwindCSS",
+                "shadcn-ui",
+                "Vercel AI SDK",
+                "TypeScript"
+            ],
+            "links": {
+                "website": "https://defai.app",
+                "github": "https://github.com/preekshit/defai",
+                "linkedin": "https://linkedin.com/in/preekshit",
+                "youtube": "https://youtube.com/watch?v=example"
+            }
+        }
+    ],
+    "achievements": [
+        {
+            "name": "Research Publication",
+            "rank": "",
+            "context": "Published \"Unlocking the Potential of Quantum Computers: A Comprehensive Review\".",
+            "track": ""
+        },
+        {
+            "name": "Hackathon Winner",
+            "rank": "1st Prize",
+            "context": "Paper Presentation at the International Level Technical Symposium AURA 25.",
+            "track": ""
+        },
+        {
+            "name": "Certification",
+            "rank": "",
+            "context": "Data Science Master Course (Coding Blocks), Full Stack Web Development (Coding Blocks), Workshop on Tableau and Visualization (UpGrad Campus).",
+            "track": ""
+        },
+        {
+            "name": "Mumbai Hacks Finalist",
+            "rank": "3rd",
+            "context": "HealthTech Track, selected for final in-person round.",
+            "track": ""
+        },
+        {
+            "name": "Masters Union GHOST OPS - FOCOS Strategy Hackathon",
+            "rank": "3rd",
+            "context": "TEAM SYNAPSE.",
+            "track": ""
+        },
+        {
+            "name": "InterSchool MUN Gurugram",
+            "rank": "2nd",
+            "context": "2017.",
+            "track": ""
+        },
+        {
+            "name": "InterHouse DAV MUN",
+            "rank": "1st",
+            "context": "2018.",
+            "track": ""
+        },
+        {
+            "name": "InterHouse DAV MUN",
+            "rank": "2nd",
+            "context": "2019.",
+            "track": ""
+        },
+        {
+            "name": "InterHouse Football Championship",
+            "rank": "1st",
+            "context": "2015.",
+            "track": ""
+        },
+        {
+            "name": "InterHouse Football Championship",
+            "rank": "2nd",
+            "context": "2017.",
+            "track": ""
+        },
+        {
+            "name": "InterSchool Football Championship",
+            "rank": "2nd",
+            "context": "2018.",
+            "track": ""
+        }
+    ]
+}

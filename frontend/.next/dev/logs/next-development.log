@@ -1,0 +1,49 @@
+[00:00:00.768] Server  LOG     ✓ Ready in 517ms
+[00:00:01.386] Server  ERROR   ⨯ ./frontend/src/app/page.tsx:88:26
+Parsing ecmascript source code failed
+  86 |                         >
+  87 |                             <Ledger />
+> 88 |                         </motion.div>
+     |                          ^^^^^^^^^^^^
+  89 |                     )}
+  90 |                 </AnimatePresence>
+  91 |
+
+Unterminated regexp literal
+
+
+[00:00:01.718] Browser ERROR   uncaughtError: Error: ./frontend/src/app/page.tsx:88:26
+Parsing ecmascript source code failed
+  86 |                         >
+  87 |                             <Ledger />
+> 88 |                         </motion.div>
+     |                          ^^^^^^^^^^^^
+  89 |                     )}
+  90 |                 </AnimatePresence>
+  91 |
+
+Unterminated regexp literal
+
+
+[00:00:01.877] Browser ERROR   ./frontend/src/app/page.tsx:88:26
+Parsing ecmascript source code failed
+  86 |                         >
+  87 |                             <Ledger />
+> 88 |                         </motion.div>
+     |                          ^^^^^^^^^^^^
+  89 |                     )}
+  90 |                 </AnimatePresence>
+  91 |
+
+Unterminated regexp literal
+[00:00:01.877] Browser ERROR   ./frontend/src/app/page.tsx:88:26
+Parsing ecmascript source code failed
+  86 |                         >
+  87 |                             <Ledger />
+> 88 |                         </motion.div>
+     |                          ^^^^^^^^^^^^
+  89 |                     )}
+  90 |                 </AnimatePresence>
+  91 |
+
+Unterminated regexp literal

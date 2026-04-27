@@ -1,0 +1,24 @@
+
+> frontend@1.0.0 build
+> next build
+
+▲ Next.js 16.1.1 (Turbopack)
+- Experiments (use with caution):
+  ✓ turbopackUseSystemTlsCerts
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 4.5s
+  Running TypeScript ...
+Failed to compile.
+
+./src/components/SovereignDock.tsx:29:19
+Type error: Type 'string' is not assignable to type 'never'.
+
+[0m [90m 27 |[39m             )}
+ [90m 28 |[39m         [33m>[39m
+[31m[1m>[22m[39m[90m 29 |[39m             [33m<[39m[33mIcon[39m className[33m=[39m{clsx([32m"h-6 w-6 transition-colors"[39m[33m,[39m isActive [33m?[39m [32m"text-white"[39m [33m:[39m [32m"text-neutral-400 group-hover:text-white"[39m)} [33m/[39m[33m>[39m
+ [90m    |[39m                   [31m[1m^[22m[39m
+ [90m 30 |[39m             [33m<[39m[33mspan[39m className[33m=[39m[32m"absolute -top-10 scale-0 rounded-md bg-neutral-900 px-2 py-1 text-xs text-white opacity-0 transition-all group-hover:scale-100 group-hover:opacity-100 border border-white/10 whitespace-nowrap z-50 pointer-events-none"[39m[33m>[39m
+ [90m 31 |[39m                 {label}
+ [90m 32 |[39m             [33m<[39m[33m/[39m[33mspan[39m[33m>[39m[0m
+Next.js build worker exited with code: 1 and signal: null
