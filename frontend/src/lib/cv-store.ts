@@ -56,7 +56,7 @@ async function loadDocuments(): Promise<Document[]> {
     // Contact Information (high priority)
     documents.push({
         title: `Contact Information for ${person.name}`,
-        content: `To reach ${person.name}, you can contact him directly via: Email: ${person.email}, Phone: ${person.phone}, LinkedIn: ${person.linkedin || 'linkedin.com/in/preekshit'}, GitHub: ${person.github || 'github.com/preekshit'}. He is based in ${person.location || 'Gurugram, India'}.`,
+        content: `To reach ${person.name}, you can contact him directly via: Email: ${person.email}, Phone: ${person.phone}, LinkedIn: ${person.linkedin || 'linkedin.com/in/preekshit-saklani-0170304plr'}, GitHub: ${person.github || 'github.com/preekshitsaklani'}. He is based in ${person.location || 'Gurugram, India'}.`,
         type: 'contact'
     });
 

@@ -54,20 +54,6 @@ export const SovereignDock = ({ currentView, onNavigate }: DockProps) => {
                     isActive={currentView === "enigma"}
                     onClick={() => onNavigate("enigma")}
                 />
-                <DockItem
-                    icon={Layers}
-                    label="The Ledger"
-                    isActive={currentView === "ledger"}
-                    onClick={() => onNavigate("ledger")}
-                />
-            </motion.div>
-        </div>
-    );
-};
-                  label="The Ledger"
-                    isActive={currentView === "ledger"}
-                    onClick={() => onNavigate("ledger")}
-                />
             </motion.div>
         </div>
     );

@@ -3,8 +3,8 @@
         "name": "Preekshit Saklani",
         "email": "preekshit.saklani2004@gmail.com",
         "phone": "+91-8383051949",
-        "linkedin": "https://linkedin.com/in/preekshit",
-        "github": "https://github.com/preekshit",
+        "linkedin": "https://www.linkedin.com/in/preekshit-saklani-0170304plr",
+        "github": "https://github.com/preekshitsaklani",
         "location": "Gurugram, India",
         "role": "AI/ML Specialist & Developer",
         "bio": "A distinguished AI/ML specialist with expertise in deep learning, NLP, computer vision, and building production-grade AI systems."
@@ -151,7 +151,7 @@
         {
             "company": "UpGrad",
             "role": "Machine Learning Intern (Time Series Forecasting)",
-            "duration": "Jun 2024 \u2013 Jul 2024",
+            "duration": "Jun 2024 – Jul 2024",
             "type": "Remote",
             "description": "Designed and developed a robust time-series forecasting model to predict hourly traffic volumes at urban junctions, engineered complex temporal features from historical datasets and weather patterns, implemented rigorous cross-validation pipelines and hyperparameter tuning in Python to minimize MAE and RMSE, conducted extensive exploratory data analysis using Pandas and Seaborn to identify traffic anomalies and correlation with environmental factors.",
             "skills_used": [
@@ -181,8 +181,8 @@
                 "API Integration"
             ],
             "links": {
-                "github": "https://github.com/preekshit",
-                "linkedin": "https://linkedin.com/in/preekshit"
+                "github": "https://github.com/preekshitsaklani",
+                "linkedin": "https://www.linkedin.com/in/preekshit-saklani-0170304plr"
             }
         },
         {
@@ -200,8 +200,8 @@
                 "Medical Imaging"
             ],
             "links": {
-                "github": "https://github.com/preekshit",
-                "linkedin": "https://linkedin.com/in/preekshit"
+                "github": "https://github.com/preekshitsaklani",
+                "linkedin": "https://www.linkedin.com/in/preekshit-saklani-0170304plr"
             }
         },
         {
@@ -222,29 +222,8 @@
                 "Virtual Environments"
             ],
             "links": {
-                "github": "https://github.com/preekshit",
-                "linkedin": "https://linkedin.com/in/preekshit"
-            }
-        },
-        {
-            "name": "Defai",
-            "tagline": "AI-Powered DeFi Chat Interface",
-            "category": "Hackathon Winner",
-            "year": "2025",
-            "gradient": "from-amber-600 to-orange-900",
-            "description": "Won ETHOXford hackathon by building DEFAI. DEFAI stands for Decentralized Finance Artificial Intelligence. It's an AI-powered chat interface that simplifies on-chain operations on the Avalanche blockchain by allowing users to interact using natural language. This makes complex DeFi operations accessible even for those with limited technical expertise.",
-            "tech_stack": [
-                "Next.js",
-                "TailwindCSS",
-                "shadcn-ui",
-                "Vercel AI SDK",
-                "TypeScript"
-            ],
-            "links": {
-                "website": "https://defai.app",
-                "github": "https://github.com/preekshit/defai",
-                "linkedin": "https://linkedin.com/in/preekshit",
-                "youtube": "https://youtube.com/watch?v=example"
+                "github": "https://github.com/preekshitsaklani",
+                "linkedin": "https://www.linkedin.com/in/preekshit-saklani-0170304plr"
             }
         }
     ],

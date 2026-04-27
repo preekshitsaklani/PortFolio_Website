@@ -26,8 +26,8 @@ RESPONSE FORMATTING:
 CONTACT INFORMATION - ALWAYS PROVIDE THESE DIRECTLY WHEN ASKED:
 - Email: preekshit.saklani2004@gmail.com
 - Phone: +91-8383051949
-- LinkedIn: linkedin.com/in/preekshit
-- GitHub: github.com/preekshit
+- LinkedIn: linkedin.com/in/preekshit-saklani-0170304plr
+- GitHub: github.com/preekshitsaklani
 - Location: Gurugram, India
 
 HANDLING QUESTIONS:

@@ -19,11 +19,11 @@ type GLTFResult = GLTF & {
   materials: {
     Standardmaterial: THREE.MeshStandardMaterial
   }
-  animations: GLTFAction[]
+  animations: THREE.AnimationClip[]
 }
 
-export function Model(props: JSX.IntrinsicElements['group']) {
-  const { nodes, materials } = useGLTF('/football.glb') as GLTFResult
+export function Model(props: React.JSX.IntrinsicElements['group']) {
+  const { nodes, materials } = useGLTF('/football.glb') as unknown as GLTFResult
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Hedra2_Standardmaterial_0.geometry} material={materials.Standardmaterial} rotation={[-Math.PI / 2, 0, 0]} />

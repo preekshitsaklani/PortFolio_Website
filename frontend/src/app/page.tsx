@@ -7,8 +7,6 @@ import { ThreeBackground } from "@/components/ThreeBackground";
 import { SpotlightBackground } from "@/components/SpotlightBackground";
 import { AiNewsOverlay } from "@/components/AiNewsOverlay";
 import { DigitalTwinChat } from "@/components/DigitalTwinChat";
-import { Arena } from "@/modules/Arena";
-import { Ledger } from "@/modules/Ledger/Portfolio";
 
 export default function Home() {
     const [currentView, setCurrentView] = useState("enigma");
@@ -59,18 +57,6 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-                        </motion.div>
-                    )}
-
-                    {currentView === "ledger" && (
-                        <motion.div
-                            key="ledger"
-                            initial={{ opacity: 0, y: 50 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            exit={{ opacity: 0, y: 50 }}
-                            className="w-full z-20 h-screen overflow-y-auto"
-                        >
-                            <Ledger />
                         </motion.div>
                     )}
                 </AnimatePresence>

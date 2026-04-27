@@ -11,7 +11,7 @@ __turbopack_context__.n(__turbopack_context__.i("[project]/frontend/src/app/layo
 }),
 "[project]/frontend/src/app/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-const e = new Error("Could not parse module '[project]/frontend/src/app/page.tsx'\n\nUnterminated regexp literal");
+const e = new Error("Could not parse module '[project]/frontend/src/app/page.tsx'\n\nExpression expected");
 e.code = 'MODULE_UNPARSABLE';
 throw e;
 }),

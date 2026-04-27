@@ -204,7 +204,7 @@ let documentsCache = null;
     // Contact Information (high priority)
     documents.push({
         title: `Contact Information for ${person.name}`,
-        content: `To reach ${person.name}, you can contact him directly via: Email: ${person.email}, Phone: ${person.phone}, LinkedIn: ${person.linkedin || 'linkedin.com/in/preekshit'}, GitHub: ${person.github || 'github.com/preekshit'}. He is based in ${person.location || 'Gurugram, India'}.`,
+        content: `To reach ${person.name}, you can contact him directly via: Email: ${person.email}, Phone: ${person.phone}, LinkedIn: ${person.linkedin || 'linkedin.com/in/preekshit-saklani-0170304plr'}, GitHub: ${person.github || 'github.com/preekshitsaklani'}. He is based in ${person.location || 'Gurugram, India'}.`,
         type: 'contact'
     });
     // Bio
@@ -341,8 +341,8 @@ RESPONSE FORMATTING:
 CONTACT INFORMATION - ALWAYS PROVIDE THESE DIRECTLY WHEN ASKED:
 - Email: preekshit.saklani2004@gmail.com
 - Phone: +91-8383051949
-- LinkedIn: linkedin.com/in/preekshit
-- GitHub: github.com/preekshit
+- LinkedIn: linkedin.com/in/preekshit-saklani-0170304plr
+- GitHub: github.com/preekshitsaklani
 - Location: Gurugram, India
 
 HANDLING QUESTIONS:

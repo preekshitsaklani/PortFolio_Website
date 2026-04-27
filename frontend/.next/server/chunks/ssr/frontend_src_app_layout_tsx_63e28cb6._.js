@@ -1,0 +1,3 @@
+module.exports=[35829,a=>{"use strict";var b=a.i(18332);function c({children:a}){return(0,b.jsx)("html",{lang:"en",className:"dark",suppressHydrationWarning:!0,children:(0,b.jsx)("body",{className:"font-sans text-white min-h-screen",suppressHydrationWarning:!0,children:a})})}a.s(["default",()=>c,"metadata",0,{title:"Preekshit Saklani | The Titan",description:"Portfolio of Preekshit Saklani"}])}];
+
+//# sourceMappingURL=frontend_src_app_layout_tsx_63e28cb6._.js.map
