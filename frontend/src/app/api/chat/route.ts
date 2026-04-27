@@ -111,8 +111,20 @@ export async function POST(request: NextRequest): Promise<NextResponse<ChatRespo
 
         // Step 5: Generate response using Groq
         try {
+            if (!process.env.GROQ_API_KEY) {
+                console.error('[Chat] Missing GROQ_API_KEY environment variable.');
+                return NextResponse.json({
+                    response: "System configuration incomplete. Missing API key.",
+                    confidence: 0
+                }, { status: 500 });
+            }
+            
+            const groq = new Groq({
+                apiKey: process.env.GROQ_API_KEY
+            });
+
             const completion = await groq.chat.completions.create({
-                model: 'openai/gpt-oss-120b',
+                model: 'llama3-70b-8192',
                 messages: [
                     {
                         role: 'system',

@@ -4,8 +4,7 @@
  */
 
 import { generateEmbedding } from './embeddings';
-import fs from 'fs';
-import path from 'path';
+import cvData from '@/data/cv_data.json';
 
 interface Document {
     title: string;
@@ -39,15 +38,6 @@ function cosineSimilarity(a: number[], b: number[]): number {
 async function loadDocuments(): Promise<Document[]> {
     if (documentsCache) return documentsCache;
 
-    // Try to load cv_data.json
-    const cvPath = path.resolve(process.cwd(), '../cv_data.json');
-
-    if (!fs.existsSync(cvPath)) {
-        console.error('CV data file not found:', cvPath);
-        return [];
-    }
-
-    const cvData = JSON.parse(fs.readFileSync(cvPath, 'utf8'));
     const documents: Document[] = [];
 
     // Create documents from CV data
