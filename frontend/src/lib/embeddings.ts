@@ -1,5 +1,11 @@
 
-import { pipeline } from '@xenova/transformers';
+import { pipeline, env } from '@xenova/transformers';
+import path from 'path';
+import os from 'os';
+
+// Configure transformers to use the Vercel ephemeral /tmp directory
+env.cacheDir = path.join(os.tmpdir(), '.cache');
+env.allowLocalModels = false;
 
 // Singleton pipeline instance to avoid reloading model
 let embedder: any = null;

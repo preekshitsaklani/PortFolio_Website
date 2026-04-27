@@ -1,12 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import Groq from 'groq-sdk';
-import { generateEmbedding } from '@/lib/embeddings';
-import { searchSimilarDocuments, SearchResult } from '@/lib/cv-store';
+import cvData from '@/data/cv_data.json';
 
-// Initialize Groq client
-const groq = new Groq({
-    apiKey: process.env.GROQ_API_KEY
-});
+export const maxDuration = 60; // Prevent timeout during model download on Vercel
+export const dynamic = 'force-dynamic';
 
 // System prompt for the Digital Twin - Professional, Formal, Gentleman
 const SYSTEM_PROMPT = `You are the Digital Twin of Preekshit Saklani — a distinguished AI/ML specialist, developer, and multi-disciplinary achiever.
@@ -66,48 +63,11 @@ export async function POST(request: NextRequest): Promise<NextResponse<ChatRespo
 
         console.log(`[Chat] Query: "${message}"`);
 
-        // Step 1: Generate embedding for the query
-        let queryEmbedding: number[];
-        try {
-            queryEmbedding = await generateEmbedding(message);
-            console.log(`[Chat] Embedding generated (dim: ${queryEmbedding.length})`);
-        } catch (embeddingError) {
-            console.error('[Chat] Embedding failed:', embeddingError);
-            return NextResponse.json({
-                response: "My apologies — a brief technical hiccup. Shall we try that again?",
-                confidence: 0
-            }, { status: 500 });
-        }
-
-        // Step 2: Search for similar documents
-        let searchResults: SearchResult[];
-        try {
-            searchResults = await searchSimilarDocuments(queryEmbedding, 5);
-            console.log(`[Chat] Found ${searchResults.length} relevant documents`);
-        } catch (searchError) {
-            console.error('[Chat] Search failed:', searchError);
-            return NextResponse.json({
-                response: "I seem to be momentarily disconnected from my knowledge base. One moment, please.",
-                confidence: 0
-            }, { status: 500 });
-        }
-
-        // Step 3: Calculate confidence
-        const avgScore = searchResults.length > 0
-            ? searchResults.reduce((sum, r) => sum + r.score, 0) / searchResults.length
-            : 0;
-
-        console.log(`[Chat] Average similarity score: ${avgScore.toFixed(3)}`);
-        if (searchResults[0]) {
-            console.log(`[Chat] Top result: ${searchResults[0].title} (score: ${searchResults[0].score?.toFixed(3)})`);
-        }
-
-        // Step 4: Build context from search results (always use whatever we have)
-        const context = searchResults.length > 0
-            ? searchResults.map(r => `[${r.type.toUpperCase()}] ${r.title}\n${r.content}`).join('\n\n---\n\n')
-            : 'No specific context available. Respond as Preekshit\'s representative with general professionalism.';
-
-        const sources = searchResults.map(r => r.title);
+        // Skip embeddings entirely to bypass Vercel serverless limits and timeouts
+        // Pass the raw CV data into context directly
+        const context = JSON.stringify(cvData, null, 2);
+        const avgScore = 1.0;
+        const sources = ["Preekshit's Master CV Database"];
 
         // Step 5: Generate response using Groq
         try {
